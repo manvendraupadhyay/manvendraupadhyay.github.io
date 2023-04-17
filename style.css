@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+  background-color: #fef4e8;
+}
+
+nav {
+  color: #fef4e8;
+  z-index: 2;
+  position: relative;
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.logo {
+  width: 84px;
+  height: 84px;
+}
+
+.banner {
+  position: realtive;
+  width: 75%;
+  margin: 1rem;
+}
+
+.intro {
+  font-size: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  word-wrap: break-word;
+  font-family: 'Inter', sans-serif;
+}
+
+.ext {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  font-family: 'Inter', sans-serif;
+  color: #f0c550;
+  font-weight: 800;
+}
+
+.ext1 {
+  font-size: 4rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
+  margin-bottom: 1rem;
+  font-family: 'Inter', sans-serif;
+  color: #f0c550;
+  font-weight: 800;
+}
+
+.mail {
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  text-decoration: none;
+  color: #f0c550;
+}
+
+@media only screen and (max-width: 600px) {
+  .intro {
+    font-size: 1.75rem;
+  }
+
+  .ext,
+  .ext1 {
+    font-size: 3.25rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .intro {
+    font-size: 1.5rem;
+  }
+  .ext,
+  .ext1 {
+    font-size: 3rem;
+  }
+}
